@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="titulo_pagina">Formulario Persona</h1>
+    <form>
+        <div class="contenedor_form_gral">
+            <div class="contenedor_form">
+                <Label for="form_nombre" class="form_titulo">Nombre</Label>
+                <input type="text" id="form_nombre" class="form_input" placeholder="Ingrese su nombre..">
+                <p class="error" id="error_nombre"></p>
+            </div>
+
+            <div class="contenedor_form">
+                <Label for="form_apellido" class="form_titulo">Apellido</Label>
+                <input type="text" id="form_apellido" class="form_input" placeholder="Ingrese su apellido..">
+                <p class="error" id="error_apellido"></p>
+            </div>
+            
+            <div class="contenedor_form">
+                <Label for="form_edad" class="form_titulo">Edad</Label>
+                <input type="number" id="form_edad" class="form_input" placeholder="Ingrese su edad en años..">
+                <p class="error" id="error_edad"></p>
+            </div>
+
+            <div class="contenedor_form">
+                <Label for="form_altura" class="form_titulo">Altura</Label>
+                <input type="number" id="form_altura" class="form_input" placeholder="Ingrese su altura en cm..">
+                <p class="error" id="error_altura"></p>
+            </div>
+
+            <div class="contenedor_form">
+                <Label for="form_correo" class="form_titulo">Correo</Label>
+                <input type="email" id="form_correo" class="form_input" placeholder="correo@example.com">
+                <p class="error" id="error_correo"></p>
+            </div>
+        </div>
+
+        <div class="contenedor_boton">
+            <button class="form_boton" id="boton_enviar">Enviar</button>
+            <p class="error" id="validaciones_res"></p>
+        </div>
+    </form>
+
+    <script src="Ejercicio6.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo_pagina{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.contenedor_form_gral{
+    display: flex;
+    flex-direction: column;
+    max-width: 80rem;
+    margin: auto;
+}
+
+.contenedor_form{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.form_titulo{
+    font-size: 3rem;
+}
+
+.form_input{
+    width: 30rem;
+}
+
+.contenedor_boton{
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_boton{
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.error {
+    color: crimson;
+    font-size: 1.5rem;
+    font-style: italic;
+    grid-column: 2/3;
+}
